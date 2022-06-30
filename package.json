@@ -7,5 +7,9 @@
     "url": "https://github.com/thebrokenfinger/tres-ui"
   },
   "author": "Yatharth K <yatharth@hey.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "packages/stiches",
+    "packages/react"
+  ]
 }
