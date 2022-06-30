@@ -1,0 +1,11 @@
+{
+  "name": "tres-ui",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thebrokenfinger/tres-ui"
+  },
+  "author": "Yatharth K <yatharth@hey.com>",
+  "license": "MIT"
+}
