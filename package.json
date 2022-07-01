@@ -8,8 +8,11 @@
   },
   "author": "Yatharth K <yatharth@hey.com>",
   "license": "MIT",
-  "workspaces": [
-    "packages/stiches",
-    "packages/react"
-  ]
+  "scripts": {
+    "build": "npx lerna run build",
+    "publish": "npx lerna publish --no-private"
+  },
+  "devDependencies": {
+    "lerna": "^5.1.6"
+  }
 }
