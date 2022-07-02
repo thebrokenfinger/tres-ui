@@ -1,4 +1,34 @@
 import { createStitches } from "@stitches/react";
+import {
+  red,
+  redA,
+  redDark,
+  redDarkA,
+  blue,
+  blueA,
+  blueDark,
+  blueDarkA,
+  green,
+  greenA,
+  greenDark,
+  greenDarkA,
+  yellow,
+  yellowA,
+  yellowDark,
+  yellowDarkA,
+  slate,
+  slateA,
+  slateDark,
+  slateDarkA,
+  mauve,
+  mauveA,
+  mauveDark,
+  mauveDarkA,
+  gray,
+  grayA,
+  grayDark,
+  grayDarkA,
+} from "@radix-ui/colors";
 import type * as Stitches from "@stitches/react";
 export type { VariantProps } from "@stitches/react";
 
@@ -14,6 +44,35 @@ export const {
   reset,
 } = createStitches({
   theme: {
+    colors: {
+      ...red,
+      ...redA,
+      ...blue,
+      ...blueA,
+      ...green,
+      ...greenA,
+      ...yellow,
+      ...yellowA,
+      ...slate,
+      ...slateA,
+      ...mauve,
+      ...mauveA,
+      ...gray,
+      ...grayA,
+
+      // Semantic colors
+      hiContrast: "$slate12",
+      loContrast: "white",
+      canvas: "hsl(0 0% 93%)",
+      panel: "white",
+      transparentPanel: "hsl(0 0% 0% / 97%)",
+      shadowLight: "hsl(206 22% 7% / 35%)",
+      shadowDark: "hsl(206 22% 7% / 20%)",
+    },
+    fonts: {
+      untitled: "Untitled Sans, -apple-system, system-ui, sans-serif",
+      mono: "Söhne Mono, menlo, monospace",
+    },
     space: {
       1: "5px",
       2: "10px",
@@ -204,3 +263,31 @@ export const {
 });
 
 export type CSS = Stitches.CSS<typeof config>;
+
+export const darkTheme = createTheme("dark-theme", {
+  colors: {
+    ...redDark,
+    ...redDarkA,
+    ...blueDark,
+    ...blueDarkA,
+    ...greenDark,
+    ...greenDarkA,
+    ...yellowDark,
+    ...yellowDarkA,
+    ...slateDark,
+    ...slateDarkA,
+    ...grayDark,
+    ...grayDarkA,
+    ...mauveDark,
+    ...mauveDarkA,
+
+    // Semantic colors
+    hiContrast: "$slate12",
+    loContrast: "$slate1",
+    canvas: "hsl(0 0% 15%)",
+    panel: "$slate3",
+    transparentPanel: "hsl(0 100% 100% / 97%)",
+    shadowLight: "hsl(206 22% 7% / 35%)",
+    shadowDark: "hsl(206 22% 7% / 20%)",
+  },
+});

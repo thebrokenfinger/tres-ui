@@ -24,6 +24,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@radix-ui/colors": "^0.1.8",
     "@stitches/react": "^1.2.8"
   },
   "devDependencies": {
