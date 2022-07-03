@@ -1,7 +1,6 @@
-import * as React from "react";
 import { styled } from "@tres-ui/stitches";
 
-export const Text: React.FC = styled("span", {
+export const Text = styled("span", {
   // Reset
   lineHeight: "1",
   margin: "0",
