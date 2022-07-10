@@ -1,4 +1,4 @@
-import { styled } from "@tres-ui/stitches";
+import { styled } from "../stitches.config";
 
 export const Button: React.FC = styled("button", {
   // Reset

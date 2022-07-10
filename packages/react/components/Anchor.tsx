@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import { styled } from "@tres-ui/stitches";
+import { styled } from "../stitches.config";
 import { Text } from "./Text";
 
 export const Anchor: FC = styled("a", {
