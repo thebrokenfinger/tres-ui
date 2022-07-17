@@ -62,7 +62,17 @@ export const TextField = styled("input", {
 
   variants: {
     size: {
-      "1": {
+      sm: {
+        borderRadius: "$1",
+        height: "$5",
+        fontSize: "$1",
+        px: "$1",
+        lineHeight: "$sizes$5",
+        "&:-webkit-autofill::first-line": {
+          fontSize: "$1",
+        },
+      },
+      md: {
         borderRadius: "$1",
         height: "$6",
         fontSize: "$3",
@@ -72,7 +82,7 @@ export const TextField = styled("input", {
           fontSize: "$3",
         },
       },
-      "2": {
+      lg: {
         borderRadius: "$1",
         height: "$7",
         fontSize: "$4",
@@ -134,6 +144,6 @@ export const TextField = styled("input", {
     },
   },
   defaultVariants: {
-    size: "1",
+    size: "sm",
   },
 });

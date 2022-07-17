@@ -6,7 +6,7 @@ export default {
   component: TextField,
   argTypes: {
     size: {
-      options: ['1', '2'],
+      options: ['sm', 'md', 'lg'],
       control: {type: 'select'}
     },
     variant: {
@@ -35,5 +35,5 @@ const Template = ({text, ...args}) => <TextField {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   placeholder: 'Your email',
-  size: '1',
+  size: 'sm',
 };
