@@ -1547,6 +1547,15 @@
     "@babel/runtime" "^7.13.10"
     "@radix-ui/react-slot" "0.1.2"
 
+"@radix-ui/react-progress@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-progress/-/react-progress-0.1.4.tgz#8d0bac115ea31c3a8513c37c4dd77b86258ab08f"
+  integrity sha512-Q+H7r/S0HMlwVriksgyUgBtol5TgkNllQPVtaXDDaeJBNFK2uiToHBp3j1Gi88/4Fw+EKT+SyWpeM/5nVtGujw==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-context" "0.1.1"
+    "@radix-ui/react-primitive" "0.1.4"
+
 "@radix-ui/react-slot@0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@radix-ui/react-slot/-/react-slot-0.1.2.tgz#e6f7ad9caa8ce81cc8d532c854c56f9b8b6307c8"
