@@ -6,7 +6,7 @@ export default {
   component: Button,
   argTypes: {
     size: {
-      options: ['sm', 'md', 'lg'],
+      options: [1, 2, 3],
       control: {type: 'select'}
     },
     variant: {
@@ -21,7 +21,7 @@ const Template = ({text, ...args}) => <Button state="active" {...args}>{text}</B
 export const Default = Template.bind({});
 Default.args = {
   text: 'Button',
-  size: 'sm',
+  size: 1,
   variant: 'default',
   ghost: false
 };

@@ -35,21 +35,21 @@ export const Button: React.FC = styled("button", {
 
   variants: {
     size: {
-      sm: {
+      1: {
         borderRadius: "$1",
         height: "$5",
         px: "$2",
         fontSize: "$1",
         lineHeight: "$sizes$5",
       },
-      md: {
+      2: {
         borderRadius: "$1",
         height: "$6",
         px: "$3",
         fontSize: "$3",
         lineHeight: "$sizes$6",
       },
-      lg: {
+      3: {
         borderRadius: "$1",
         height: "$7",
         px: "$4",
@@ -266,7 +266,7 @@ export const Button: React.FC = styled("button", {
     },
   ],
   defaultVariants: {
-    size: "sm",
+    size: 1,
     variant: "default",
   },
 });

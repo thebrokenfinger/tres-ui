@@ -45,19 +45,19 @@ export const TextArea = styled("textarea", {
 
   variants: {
     size: {
-      sm: {
+      1: {
         borderRadius: "$1",
         fontSize: "$1",
         lineHeight: "16px",
         px: "$1",
       },
-      md: {
+      2: {
         borderRadius: "$1",
         fontSize: "$2",
         lineHeight: "20px",
         px: "$1",
       },
-      lg: {
+      3: {
         borderRadius: "$2",
         fontSize: "$3",
         lineHeight: "23px",
@@ -93,6 +93,6 @@ export const TextArea = styled("textarea", {
     },
   },
   defaultVariants: {
-    size: "sm",
+    size: 1,
   },
 });

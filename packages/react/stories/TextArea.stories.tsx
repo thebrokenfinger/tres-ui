@@ -6,7 +6,7 @@ export default {
   component: TextArea,
   argTypes: {
     size: {
-      options: ["sm", "md", "lg"],
+      options: [1, 2, 3],
       control: { type: "select" },
     },
     state: {
@@ -31,5 +31,5 @@ const Template = ({ text, ...args }) => <TextArea {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   placeholder: "Your email",
-  size: "sm",
+  size: 1,
 };

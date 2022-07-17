@@ -62,7 +62,7 @@ export const TextField = styled("input", {
 
   variants: {
     size: {
-      sm: {
+      1: {
         borderRadius: "$1",
         height: "$5",
         fontSize: "$1",
@@ -72,7 +72,7 @@ export const TextField = styled("input", {
           fontSize: "$1",
         },
       },
-      md: {
+      2: {
         borderRadius: "$1",
         height: "$6",
         fontSize: "$3",
@@ -82,7 +82,7 @@ export const TextField = styled("input", {
           fontSize: "$3",
         },
       },
-      lg: {
+      3: {
         borderRadius: "$1",
         height: "$7",
         fontSize: "$4",
@@ -144,6 +144,6 @@ export const TextField = styled("input", {
     },
   },
   defaultVariants: {
-    size: "sm",
+    size: 1,
   },
 });
