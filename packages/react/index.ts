@@ -2,6 +2,7 @@ export { Anchor } from "./components/Anchor";
 export { Box } from "./components/Box";
 export { Button } from "./components/Button";
 export { Code } from "./components/Code";
+export { Container } from "./components/Container";
 export { ControlGroup } from "./components/ControlGroup";
 export { Flex } from "./components/Flex";
 export { Grid } from "./components/Grid";
