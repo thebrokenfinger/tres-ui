@@ -5,10 +5,19 @@ export { Checkbox } from "./components/Checkbox";
 export { Code } from "./components/Code";
 export { Container } from "./components/Container";
 export { ControlGroup } from "./components/ControlGroup";
+export {
+  Dialog,
+  DialogClose,
+  DialogContent,
+  DialogDescription,
+  DialogTitle,
+  DialogTrigger,
+} from "./components/Dialog";
 export { Flex } from "./components/Flex";
 export { Grid } from "./components/Grid";
 export { Heading } from "./components/Heading";
 export { IconButton } from "./components/IconButton";
+export { Overlay } from "./components/Overlay";
 export { Panel } from "./components/Panel";
 export { Paragraph } from "./components/Paragraph";
 export {
