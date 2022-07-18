@@ -1,6 +1,7 @@
 export { Anchor } from "./components/Anchor";
 export { Box } from "./components/Box";
 export { Button } from "./components/Button";
+export { Checkbox } from "./components/Checkbox";
 export { Code } from "./components/Code";
 export { Container } from "./components/Container";
 export { ControlGroup } from "./components/ControlGroup";
