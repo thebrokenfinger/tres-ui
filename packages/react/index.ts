@@ -1,4 +1,5 @@
 export { Anchor } from "./components/Anchor";
+export { AspectRatio } from "@radix-ui/react-aspect-ratio";
 export { Box } from "./components/Box";
 export { Button } from "./components/Button";
 export { Checkbox } from "./components/Checkbox";
@@ -48,7 +49,9 @@ export {
   PopoverContent,
   PopoverTrigger,
 } from "./components/Popover";
+export { Portal } from "@radix-ui/react-portal";
 export { ProgressBar } from "./components/ProgressBar";
+export { DesignSystemProvider } from "./components/Provider";
 export { Radio, RadioGroup } from "./components/Radio";
 export { RadioCard, RadioCardGroup } from "./components/RadioCard";
 export { Select } from "./components/Select";
