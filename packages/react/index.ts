@@ -30,6 +30,7 @@ export { ProgressBar } from "./components/ProgressBar";
 export { Radio, RadioGroup } from "./components/Radio";
 export { RadioCard, RadioCardGroup } from "./components/RadioCard";
 export { Select } from "./components/Select";
+export { Separator } from "./components/Separator";
 export {
   Caption,
   Tbody,
@@ -40,6 +41,8 @@ export {
   Thead,
   Table,
 } from "./components/Table";
+export { TabLink } from "./components/TabLink";
+export { Tabs, TabsList, TabsContent, TabsTrigger } from "./components/Tabs";
 export { Text } from "./components/Text";
 export { TextArea } from "./components/TextArea";
 export { TextField } from "./components/TextField";
