@@ -72,3 +72,16 @@ export { Text } from "./components/Text";
 export { TextArea } from "./components/TextArea";
 export { TextField } from "./components/TextField";
 export { Tooltip } from "./components/Tooltip";
+
+// Style utilities from Stitches config
+export {
+  styled,
+  css,
+  theme,
+  createTheme,
+  darkTheme,
+  getCssText,
+  globalCss,
+  keyframes,
+  config,
+} from "./stitches.config";
