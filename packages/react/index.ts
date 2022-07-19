@@ -56,6 +56,7 @@ export { Radio, RadioGroup } from "./components/Radio";
 export { RadioCard, RadioCardGroup } from "./components/RadioCard";
 export { Select } from "./components/Select";
 export { Separator } from "./components/Separator";
+export { Switch } from "./components/Switch";
 export {
   Caption,
   Tbody,
