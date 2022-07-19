@@ -43,3 +43,4 @@ export {
 export { Text } from "./components/Text";
 export { TextArea } from "./components/TextArea";
 export { TextField } from "./components/TextField";
+export { Tooltip } from "./components/Tooltip";
