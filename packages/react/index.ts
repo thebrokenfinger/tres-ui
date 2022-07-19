@@ -13,10 +13,32 @@ export {
   DialogTitle,
   DialogTrigger,
 } from "./components/Dialog";
+export {
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuCheckboxItem,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuSeparator,
+} from "./components/DropdownMenu";
 export { Flex } from "./components/Flex";
 export { Grid } from "./components/Grid";
 export { Heading } from "./components/Heading";
 export { IconButton } from "./components/IconButton";
+export {
+  Menu,
+  MenuCheckboxItem,
+  MenuGroup,
+  MenuItem,
+  MenuLabel,
+  MenuRadioGroup,
+  MenuRadioItem,
+  MenuSeparator,
+} from "./components/Menu";
 export { Overlay } from "./components/Overlay";
 export { Panel } from "./components/Panel";
 export { Paragraph } from "./components/Paragraph";
