@@ -1,5 +1,6 @@
 export { Anchor } from "./components/Anchor";
 export { AspectRatio } from "@radix-ui/react-aspect-ratio";
+export { Banner } from "./components/Banner";
 export { Box } from "./components/Box";
 export { Button } from "./components/Button";
 export { Checkbox } from "./components/Checkbox";
