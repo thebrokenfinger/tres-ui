@@ -9,19 +9,19 @@ export default {
       options: [1, 2, 3],
       control: {type: 'select'}
     },
-    variant: {
-      options: ['default', 'primary', 'success', 'danger', 'transparentWhite', 'transparentBlack'],
+    colorScheme: {
+      options: ['gray', 'contrast', 'green', 'red', 'transparentWhite', 'transparentBlack'],
       control: {type: 'select'}
     }
   }
 };
 
-const Template = ({text, ...args}) => <Button state="active" {...args}>{text}</Button>;
+const Template = ({text, ...args}) => <Button {...args}>{text}</Button>;
 
 export const Default = Template.bind({});
 Default.args = {
   text: 'Button',
   size: 1,
-  variant: 'default',
+  colorScheme: 'gray',
   ghost: false
 };

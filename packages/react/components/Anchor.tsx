@@ -1,8 +1,7 @@
-import type { FC } from "react";
 import { styled } from "../stitches.config";
 import { Text } from "./Text";
 
-export const Anchor: FC = styled("a", {
+export const Anchor = styled("a", {
   alignItems: "center",
   gap: "$1",
   flexShrink: 0,

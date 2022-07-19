@@ -1,6 +1,6 @@
 import { styled } from "../stitches.config";
 
-export const Button: React.FC = styled("button", {
+export const Button = styled("button", {
   // Reset
   all: "unset",
   alignItems: "center",
@@ -57,8 +57,8 @@ export const Button: React.FC = styled("button", {
         lineHeight: "$sizes$7",
       },
     },
-    variant: {
-      default: {
+    colorScheme: {
+      gray: {
         backgroundColor: "$loContrast",
         boxShadow: "inset 0 0 0 1px $colors$slate7",
         color: "$hiContrast",
@@ -80,7 +80,7 @@ export const Button: React.FC = styled("button", {
             boxShadow: "inset 0 0 0 1px $colors$slate8",
           },
       },
-      primary: {
+      contrast: {
         backgroundColor: "$hiContrast",
         boxShadow: "inset 0 0 0 1px $colors$hiContrast",
         color: "$loContrast",
@@ -104,7 +104,7 @@ export const Button: React.FC = styled("button", {
             boxShadow: "inset 0 0 0 1px $colors$slate8",
           }, */
       },
-      success: {
+      green: {
         backgroundColor: "$green2",
         boxShadow: "inset 0 0 0 1px $colors$green7",
         color: "$green11",
@@ -126,7 +126,7 @@ export const Button: React.FC = styled("button", {
             boxShadow: "inset 0 0 0 1px $colors$green8",
           },
       },
-      danger: {
+      red: {
         backgroundColor: "$loContrast",
         boxShadow: "inset 0 0 0 1px $colors$slate7",
         color: "$red11",
@@ -190,7 +190,7 @@ export const Button: React.FC = styled("button", {
   },
   compoundVariants: [
     {
-      variant: "default",
+      colorScheme: "gray",
       ghost: "true",
       css: {
         backgroundColor: "transparent",
@@ -216,7 +216,7 @@ export const Button: React.FC = styled("button", {
       },
     },
     {
-      variant: "success",
+      colorScheme: "green",
       ghost: "true",
       css: {
         backgroundColor: "transparent",
@@ -241,7 +241,7 @@ export const Button: React.FC = styled("button", {
       },
     },
     {
-      variant: "danger",
+      colorScheme: "red",
       ghost: "true",
       css: {
         backgroundColor: "transparent",
@@ -267,6 +267,6 @@ export const Button: React.FC = styled("button", {
   ],
   defaultVariants: {
     size: 1,
-    variant: "default",
+    colorScheme: "gray",
   },
 });
