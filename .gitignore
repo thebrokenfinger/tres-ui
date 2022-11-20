@@ -1,11 +1,9 @@
 .changelog/
-node_modules/
 npm-debug.log
 packages/**/lib
 packages/**/coverage
 packages/**/dist
 tooling/**/dist
-packages/**/node_modules
 npm-debug.log*
 packages/**/.env
 *.log
@@ -84,3 +82,17 @@ yarn-error.log
 .yarn-integrity
 
 report.*
+
+# next.js
+.next/
+out/
+
+# production
+build/
+.turbo/
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
